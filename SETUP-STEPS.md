@@ -15,4 +15,13 @@ b.python3 manage.py runserver
 
 # General commands
 
+### docker
+
 1. docker-compose up
+2. docker-compose exec backend sh
+
+### manage.py
+
+1. python manage.py startapp products//generate new app called products
+2. python manage.py makemigrations
+3. python manage.py migrate
