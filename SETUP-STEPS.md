@@ -1,8 +1,14 @@
 # SETUP
 
+#### env
+
 1.setup venv
 a.python3 -m venv env
 b.source env/bin/activate
+
+##### django App
+
+admin folder contain the django app
 2.install django
 a.python3 -m pip install Django
 3.django admin init
@@ -12,6 +18,14 @@ a.cd admin
 b.python3 manage.py runserver
 5.setup dockerfile
 6.setup docker compose
+
+---
+
+##### flask app
+
+main folder contain the flask app
+
+1. create requiments file
 
 # General commands
 
